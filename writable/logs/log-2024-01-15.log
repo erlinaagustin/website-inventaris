@@ -1,0 +1,174 @@
+CRITICAL - 2024-01-15 19:24:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "ruangan.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ruangan.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('ruangan.php', [], true)
+ 3 APPPATH/Controllers/RuanganController.php(12): view('ruangan.php', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RuanganController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RuanganController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-15 19:58:25 --> Error: Class "App\Models\AsetModel" not found
+in APPPATH/Controllers/AsetController.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AsetController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsetController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-15 19:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 20:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 21:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 21:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 21:43:52 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/edit_pengadaan.php on line 9.
+ 1 APPPATH/Views/edit_pengadaan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 9)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(59): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('AS001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-15 21:46:06 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/edit_pengadaan.php on line 10.
+ 1 APPPATH/Views/edit_pengadaan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 10)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(59): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('AS001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-15 21:49:39 --> ErrorException: Undefined variable $pengadaan
+in APPPATH/Views/edit_pengadaan.php on line 14.
+ 1 APPPATH/Views/edit_pengadaan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengadaan', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(59): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('AS001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-15 21:51:39 --> ArgumentCountError: Too few arguments to function App\Controllers\PengadaanController::edit(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH/Controllers/PengadaanController.php on line 53.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('AS001')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-15 23:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:26:05 --> ErrorException: Undefined variable $aset
+in APPPATH/Views/edit_pengadaan.php on line 10.
+ 1 APPPATH/Views/edit_pengadaan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aset', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 10)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(61): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('AS001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-15 23:28:07 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/edit_pengadaan.php on line 10.
+ 1 APPPATH/Views/edit_pengadaan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 10)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(61): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('AS001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-15 23:30:24 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/edit_pengadaan.php on line 10.
+ 1 APPPATH/Views/edit_pengadaan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 10)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(61): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('P001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-15 23:34:01 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/edit_pengadaan.php on line 10.
+ 1 APPPATH/Views/edit_pengadaan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 10)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(61): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('P001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-15 23:36:38 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/edit_pengadaan.php on line 10.
+ 1 APPPATH/Views/edit_pengadaan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 10)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(61): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('P001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-15 23:38:27 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/edit_pengadaan.php on line 15.
+ 1 APPPATH/Views/edit_pengadaan.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 15)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(61): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('P001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-15 23:39:20 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/edit_pengadaan.php on line 15.
+ 1 APPPATH/Views/edit_pengadaan.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 15)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(61): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('P001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-15 23:39:24 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/edit_pengadaan.php on line 15.
+ 1 APPPATH/Views/edit_pengadaan.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 15)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(61): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('P001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-15 23:39:30 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/edit_pengadaan.php on line 20.
+ 1 APPPATH/Views/edit_pengadaan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 20)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(61): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('P001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')

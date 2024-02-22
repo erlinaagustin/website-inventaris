@@ -1,0 +1,1395 @@
+CRITICAL - 2024-01-16 00:04:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/edit_pengadaan.php on line 7.
+ 1 APPPATH/Views/edit_pengadaan.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php', 7)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengadaan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengadaan.php', [], true)
+ 5 APPPATH/Controllers/PengadaanController.php(63): view('edit_pengadaan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->edit('P001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 02:51:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detail_pengadaan.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail_pengadaan.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('detail_pengadaan.php', [], true)
+ 3 APPPATH/Controllers/PengadaanController.php(105): view('detail_pengadaan.php', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->detail('P002')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 02:51:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detail_pengadaan.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail_pengadaan.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('detail_pengadaan.php', [], true)
+ 3 APPPATH/Controllers/PengadaanController.php(105): view('detail_pengadaan.php', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->detail('P002')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 02:51:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detail_pengadaan.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail_pengadaan.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('detail_pengadaan.php', [], true)
+ 3 APPPATH/Controllers/PengadaanController.php(105): view('detail_pengadaan.php', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->detail('P002')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 02:52:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detail_pengadaan.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail_pengadaan.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('detail_pengadaan.php', [], true)
+ 3 APPPATH/Controllers/PengadaanController.php(105): view('detail_pengadaan.php', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->detail('P002')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 03:21:42 --> ErrorException: Undefined array key "nama_aset"
+in APPPATH/Views/pengolahan_aset.php on line 44.
+ 1 APPPATH/Views/pengolahan_aset.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_aset"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/pengolahan_aset.php', 44)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('pengolahan_aset.php', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(12): view('pengolahan_aset.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 03:24:52 --> ErrorException: Undefined array key "nama_aset"
+in APPPATH/Views/pengolahan_aset.php on line 44.
+ 1 APPPATH/Views/pengolahan_aset.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_aset"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/pengolahan_aset.php', 44)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('pengolahan_aset.php', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(12): view('pengolahan_aset.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 03:24:54 --> ErrorException: Undefined array key "nama_aset"
+in APPPATH/Views/pengolahan_aset.php on line 44.
+ 1 APPPATH/Views/pengolahan_aset.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_aset"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/pengolahan_aset.php', 44)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('pengolahan_aset.php', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(12): view('pengolahan_aset.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 06:01:10 --> ErrorException: Undefined variable $kategori
+in APPPATH/Views/tambah_pengolahan_aset.php on line 22.
+ 1 APPPATH/Views/tambah_pengolahan_aset.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/tambah_pengolahan_aset.php', 22)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/tambah_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tambah_pengolahan_aset', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(21): view('tambah_pengolahan_aset', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 06:05:48 --> Error: Class "App\Controllers\KategoriModel" not found
+in APPPATH/Controllers/PengolahanAsetController.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->tambah()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 06:05:50 --> Error: Class "App\Controllers\KategoriModel" not found
+in APPPATH/Controllers/PengolahanAsetController.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->tambah()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 06:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 07:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 07:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 07:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 07:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 07:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 07:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 07:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 07:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 07:52:59 --> Error: Call to a member function isValid() on null
+in APPPATH/Controllers/PengolahanAsetController.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 07:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 07:59:21 --> Error: Call to a member function isValid() on null
+in APPPATH/Controllers/PengolahanAsetController.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 07:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 07:59:41 --> Error: Call to a member function isValid() on null
+in APPPATH/Controllers/PengolahanAsetController.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:05:24 --> Error: Call to a member function isValid() on null
+in APPPATH/Controllers/PengolahanAsetController.php on line 58.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+ERROR - 2024-01-16 08:11:43 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ke...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+#9 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2024-01-16 08:11:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:11:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-18\', \'aaad\', \'1705392703_a76b8cc08a9e15694f35.png\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-18\', \'aaad\', \'1705392703_a76b8cc08a9e15694f35.png\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:11:43 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-18\', \'aaad\', \'1705392703_a76b8cc08a9e15694f35.png\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-18\', \'aaad\', \'1705392703_a76b8cc08a9e15694f35.png\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-18\', \'aaad\', \'1705392703_a76b8cc08a9e15694f35.png\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+ERROR - 2024-01-16 08:12:34 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ke...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+#9 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2024-01-16 08:12:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:12:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-18\', \'aaad\', \'1705392754_78e3a79676634c3169cd.png\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-18\', \'aaad\', \'1705392754_78e3a79676634c3169cd.png\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:12:34 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-18\', \'aaad\', \'1705392754_78e3a79676634c3169cd.png\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-18\', \'aaad\', \'1705392754_78e3a79676634c3169cd.png\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-18\', \'aaad\', \'1705392754_78e3a79676634c3169cd.png\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+ERROR - 2024-01-16 08:24:32 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ke...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+#9 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2024-01-16 08:24:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:24:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'2\', \'3\', \'3\', \'1\', \'2024-01-18\', \'aaad\', \'1705393472_6cc37a68baa4bdad8ea2.png\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'2\', \'3\', \'3\', \'1\', \'2024-01-18\', \'aaad\', \'1705393472_6cc37a68baa4bdad8ea2.png\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:24:32 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'2\', \'3\', \'3\', \'1\', \'2024-01-18\', \'aaad\', \'1705393472_6cc37a68baa4bdad8ea2.png\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'2\', \'3\', \'3\', \'1\', \'2024-01-18\', \'aaad\', \'1705393472_6cc37a68baa4bdad8ea2.png\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'2\', \'3\', \'3\', \'1\', \'2024-01-18\', \'aaad\', \'1705393472_6cc37a68baa4bdad8ea2.png\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+ERROR - 2024-01-16 08:24:42 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ke...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+#9 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2024-01-16 08:24:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:24:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'2\', \'3\', \'3\', \'1\', \'2024-01-18\', \'aaad\', \'1705393482_959220b1223d067c5b9c.png\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'2\', \'3\', \'3\', \'1\', \'2024-01-18\', \'aaad\', \'1705393482_959220b1223d067c5b9c.png\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:24:42 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'2\', \'3\', \'3\', \'1\', \'2024-01-18\', \'aaad\', \'1705393482_959220b1223d067c5b9c.png\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'2\', \'3\', \'3\', \'1\', \'2024-01-18\', \'aaad\', \'1705393482_959220b1223d067c5b9c.png\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'2\', \'3\', \'3\', \'1\', \'2024-01-18\', \'aaad\', \'1705393482_959220b1223d067c5b9c.png\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/PengolahanAsetController.php(65): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+ERROR - 2024-01-16 08:47:43 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ke...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengolahanAsetController.php(66): CodeIgniter\Model->insert(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+#9 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2024-01-16 08:47:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(66): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:47:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS001\', \'1\', \'2\', \'1\', \'1\', \'2024-01-17\', \'dadad\', \'1705394863_3fe1aba843a377acfa45.png\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS001\', \'1\', \'2\', \'1\', \'1\', \'2024-01-17\', \'dadad\', \'1705394863_3fe1aba843a377acfa45.png\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/PengolahanAsetController.php(66): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:47:43 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS001\', \'1\', \'2\', \'1\', \'1\', \'2024-01-17\', \'dadad\', \'1705394863_3fe1aba843a377acfa45.png\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS001\', \'1\', \'2\', \'1\', \'1\', \'2024-01-17\', \'dadad\', \'1705394863_3fe1aba843a377acfa45.png\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS001\', \'1\', \'2\', \'1\', \'1\', \'2024-01-17\', \'dadad\', \'1705394863_3fe1aba843a377acfa45.png\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/PengolahanAsetController.php(66): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+ERROR - 2024-01-16 08:49:14 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ke...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengolahanAsetController.php(72): CodeIgniter\Model->insert(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+#9 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2024-01-16 08:49:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(72): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:49:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'3\', \'3\', \'1\', \'1\', \'2024-01-16\', \'adad\', \'1705394954_56e263998fd6bbe0bfa2.png\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'3\', \'3\', \'1\', \'1\', \'2024-01-16\', \'adad\', \'1705394954_56e263998fd6bbe0bfa2.png\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/PengolahanAsetController.php(72): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:49:14 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'3\', \'3\', \'1\', \'1\', \'2024-01-16\', \'adad\', \'1705394954_56e263998fd6bbe0bfa2.png\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'3\', \'3\', \'1\', \'1\', \'2024-01-16\', \'adad\', \'1705394954_56e263998fd6bbe0bfa2.png\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'3\', \'3\', \'1\', \'1\', \'2024-01-16\', \'adad\', \'1705394954_56e263998fd6bbe0bfa2.png\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/PengolahanAsetController.php(72): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+ERROR - 2024-01-16 08:52:33 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ke...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengolahanAsetController.php(72): CodeIgniter\Model->insert(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+#9 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2024-01-16 08:52:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(72): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:52:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-10\', \'dad\', \'1705395153_ec3dd0be870f4aa03527.png\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-10\', \'dad\', \'1705395153_ec3dd0be870f4aa03527.png\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/PengolahanAsetController.php(72): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 08:52:33 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-10\', \'dad\', \'1705395153_ec3dd0be870f4aa03527.png\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-10\', \'dad\', \'1705395153_ec3dd0be870f4aa03527.png\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS002\', \'1\', \'2\', \'1\', \'1\', \'2024-01-10\', \'dad\', \'1705395153_ec3dd0be870f4aa03527.png\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/PengolahanAsetController.php(72): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 09:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 09:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 10:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 11:17:08 --> Error: Call to undefined function App\Controllers\public_path()
+in APPPATH/Controllers/PengolahanAsetController.php on line 45.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 11:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-16 11:18:29 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ke...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengolahanAsetController.php(62): CodeIgniter\Model->insert(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+#9 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2024-01-16 11:18:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(62): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 11:18:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS001\', \'1\', \'2\', \'1\', \'1\', \'2024-01-16\', \'adada\', \'1705403909_5b54078683a7417368ee.png\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS001\', \'1\', \'2\', \'1\', \'1\', \'2024-01-16\', \'adada\', \'1705403909_5b54078683a7417368ee.png\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/PengolahanAsetController.php(62): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 11:18:29 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS001\', \'1\', \'2\', \'1\', \'1\', \'2024-01-16\', \'adada\', \'1705403909_5b54078683a7417368ee.png\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS001\', \'1\', \'2\', \'1\', \'1\', \'2024-01-16\', \'adada\', \'1705403909_5b54078683a7417368ee.png\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (\'AS001\', \'1\', \'2\', \'1\', \'1\', \'2024-01-16\', \'adada\', \'1705403909_5b54078683a7417368ee.png\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelola_aset` (`kode_aset`, `id_kategori`, `id_ruangan`, `id_merek`, `id_kondisi`, `tanggal`, `keterangan`, `foto`) VALUES (:kode_aset:, :id_kategori:, :id_ruangan:, :id_merek:, :id_kondisi:, :tanggal:, :keterangan:, :foto:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/PengolahanAsetController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->simpan()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 11:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-16 12:01:54 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_bpr`.`kelola_aset`, CONSTRAINT `kelola_aset_ibfk_8` FOREIGN KEY (`id_merek`) REFERENCES `merek` (`id_merek`)) in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `me...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `me...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `me...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2782): CodeIgniter\Database\BaseConnection->query('DELETE FROM `me...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/BaseModel.php(1117): CodeIgniter\Model->doDelete(Array, false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/MerekController.php(65): CodeIgniter\BaseModel->delete(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\MerekController->delete('1')
+#8 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MerekController))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2024-01-16 12:01:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`db_bpr`.`kelola_aset`, CONSTRAINT `kelola_aset_ibfk_8` FOREIGN KEY (`id_merek`) REFERENCES `merek` (`id_merek`))
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2782): CodeIgniter\Database\BaseConnection->query('DELETE FROM `merek`
+WHERE `id_merek` IN :id_merek:', [...], false)
+ 2 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1117): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH/Controllers/MerekController.php(65): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\MerekController->delete('1')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MerekController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 12:01:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`db_bpr`.`kelola_aset`, CONSTRAINT `kelola_aset_ibfk_8` FOREIGN KEY (`id_merek`) REFERENCES `merek` (`id_merek`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `merek`
+WHERE `id_merek` IN (\'1\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `merek`
+WHERE `id_merek` IN (\'1\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2782): CodeIgniter\Database\BaseConnection->query('DELETE FROM `merek`
+WHERE `id_merek` IN :id_merek:', [...], false)
+ 4 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH/BaseModel.php(1117): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH/Controllers/MerekController.php(65): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\MerekController->delete('1')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MerekController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 12:01:54 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_bpr`.`kelola_aset`, CONSTRAINT `kelola_aset_ibfk_8` FOREIGN KEY (`id_merek`) REFERENCES `merek` (`id_merek`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `merek`
+WHERE `id_merek` IN (\'1\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `merek`
+WHERE `id_merek` IN (\'1\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `merek`
+WHERE `id_merek` IN (\'1\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2782): CodeIgniter\Database\BaseConnection->query('DELETE FROM `merek`
+WHERE `id_merek` IN :id_merek:', [...], false)
+ 5 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(1117): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/MerekController.php(65): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\MerekController->delete('1')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MerekController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 12:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 14:09:37 --> ErrorException: Undefined variable $id
+in APPPATH/Models/PengolahanAsetModel.php on line 31.
+ 1 APPPATH/Models/PengolahanAsetModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Models/PengolahanAsetModel.php', 31)
+ 2 APPPATH/Controllers/PengolahanAsetController.php(14): App\Models\PengolahanAsetModel->getAsetWithDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 14:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 14:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 14:35:46 --> TypeError: Cannot access offset of type string on string
+in APPPATH/Views/detail_pengolahan_aset.php on line 24.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('detail_pengolahan_aset', [], true)
+ 4 APPPATH/Controllers/PengolahanAsetController.php(83): view('detail_pengolahan_aset', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->detail('5')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 14:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 14:40:04 --> ErrorException: Undefined variable $item
+in APPPATH/Views/detail_pengolahan_aset.php on line 1.
+ 1 APPPATH/Views/detail_pengolahan_aset.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/detail_pengolahan_aset.php', 1)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/detail_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('detail_pengolahan_aset', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(83): view('detail_pengolahan_aset', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->detail('5')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 14:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 17:27:34 --> ErrorException: Undefined array key "harga"
+in APPPATH/Views/detail_pengolahan_aset.php on line 43.
+ 1 APPPATH/Views/detail_pengolahan_aset.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/detail_pengolahan_aset.php', 43)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/detail_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('detail_pengolahan_aset', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(83): view('detail_pengolahan_aset', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->detail('5')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-16 17:28:12 --> mysqli_sql_exception: Unknown column 'aset.harga' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `kelola_...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kelola_...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kelola_...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `kelola_...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Models/PengolahanAsetModel.php(32): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengolahanAsetController.php(75): App\Models\PengolahanAsetModel->getAsetWithDetails('5')
+#8 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->detail('5')
+#9 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2024-01-16 17:28:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'aset.harga' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `kelola_aset`.*, `aset`.`nama_aset`, `aset`.`harga`, `kategori`.`nama_kategori`, `ruangan`.`nama_ruangan`, `merek`.`nama_merek`, `kondisi`.`nama_kondisi`
+FROM `kelola_aset`
+LEFT JOIN `aset` ON `kelola_aset`.`kode_aset` = `aset`.`kode_aset`
+LEFT JOIN `kategori` ON `kelola_aset`.`id_kategori` = `kategori`.`id_kategori`
+LEFT JOIN `ruangan` ON `kelola_aset`.`id_ruangan` = `ruangan`.`id_ruangan`
+LEFT JOIN `merek` ON `kelola_aset`.`id_merek` = `merek`.`id_merek`
+LEFT JOIN `kondisi` ON `kelola_aset`.`id_kondisi` = `kondisi`.`id_kondisi`
+WHERE `kelola_aset`.`id_kelola` = :kelola_aset.id_kelola:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Models/PengolahanAsetModel.php(32): CodeIgniter\BaseModel->first()
+ 5 APPPATH/Controllers/PengolahanAsetController.php(75): App\Models\PengolahanAsetModel->getAsetWithDetails('5')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->detail('5')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 17:28:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'aset.harga' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kelola_aset`.*, `aset`.`nama_aset`, `aset`.`harga`, `kategori`.`nama_kategori`, `ruangan`.`nama_ruangan`, `merek`.`nama_merek`, `kondisi`.`nama_kondisi`
+FROM `kelola_aset`
+LEFT JOIN `aset` ON `kelola_aset`.`kode_aset` = `aset`.`kode_aset`
+LEFT JOIN `kategori` ON `kelola_aset`.`id_kategori` = `kategori`.`id_kategori`
+LEFT JOIN `ruangan` ON `kelola_aset`.`id_ruangan` = `ruangan`.`id_ruangan`
+LEFT JOIN `merek` ON `kelola_aset`.`id_merek` = `merek`.`id_merek`
+LEFT JOIN `kondisi` ON `kelola_aset`.`id_kondisi` = `kondisi`.`id_kondisi`
+WHERE `kelola_aset`.`id_kelola` = \'5\'
+ LIMIT 1')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kelola_aset`.*, `aset`.`nama_aset`, `aset`.`harga`, `kategori`.`nama_kategori`, `ruangan`.`nama_ruangan`, `merek`.`nama_merek`, `kondisi`.`nama_kondisi`
+FROM `kelola_aset`
+LEFT JOIN `aset` ON `kelola_aset`.`kode_aset` = `aset`.`kode_aset`
+LEFT JOIN `kategori` ON `kelola_aset`.`id_kategori` = `kategori`.`id_kategori`
+LEFT JOIN `ruangan` ON `kelola_aset`.`id_ruangan` = `ruangan`.`id_ruangan`
+LEFT JOIN `merek` ON `kelola_aset`.`id_merek` = `merek`.`id_merek`
+LEFT JOIN `kondisi` ON `kelola_aset`.`id_kondisi` = `kondisi`.`id_kondisi`
+WHERE `kelola_aset`.`id_kelola` = \'5\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `kelola_aset`.*, `aset`.`nama_aset`, `aset`.`harga`, `kategori`.`nama_kategori`, `ruangan`.`nama_ruangan`, `merek`.`nama_merek`, `kondisi`.`nama_kondisi`
+FROM `kelola_aset`
+LEFT JOIN `aset` ON `kelola_aset`.`kode_aset` = `aset`.`kode_aset`
+LEFT JOIN `kategori` ON `kelola_aset`.`id_kategori` = `kategori`.`id_kategori`
+LEFT JOIN `ruangan` ON `kelola_aset`.`id_ruangan` = `ruangan`.`id_ruangan`
+LEFT JOIN `merek` ON `kelola_aset`.`id_merek` = `merek`.`id_merek`
+LEFT JOIN `kondisi` ON `kelola_aset`.`id_kondisi` = `kondisi`.`id_kondisi`
+WHERE `kelola_aset`.`id_kelola` = :kelola_aset.id_kelola:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 6 APPPATH/Models/PengolahanAsetModel.php(32): CodeIgniter\BaseModel->first()
+ 7 APPPATH/Controllers/PengolahanAsetController.php(75): App\Models\PengolahanAsetModel->getAsetWithDetails('5')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->detail('5')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+CRITICAL - 2024-01-16 17:28:13 --> [Caused by] mysqli_sql_exception: Unknown column 'aset.harga' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `kelola_aset`.*, `aset`.`nama_aset`, `aset`.`harga`, `kategori`.`nama_kategori`, `ruangan`.`nama_ruangan`, `merek`.`nama_merek`, `kondisi`.`nama_kondisi`
+FROM `kelola_aset`
+LEFT JOIN `aset` ON `kelola_aset`.`kode_aset` = `aset`.`kode_aset`
+LEFT JOIN `kategori` ON `kelola_aset`.`id_kategori` = `kategori`.`id_kategori`
+LEFT JOIN `ruangan` ON `kelola_aset`.`id_ruangan` = `ruangan`.`id_ruangan`
+LEFT JOIN `merek` ON `kelola_aset`.`id_merek` = `merek`.`id_merek`
+LEFT JOIN `kondisi` ON `kelola_aset`.`id_kondisi` = `kondisi`.`id_kondisi`
+WHERE `kelola_aset`.`id_kelola` = \'5\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kelola_aset`.*, `aset`.`nama_aset`, `aset`.`harga`, `kategori`.`nama_kategori`, `ruangan`.`nama_ruangan`, `merek`.`nama_merek`, `kondisi`.`nama_kondisi`
+FROM `kelola_aset`
+LEFT JOIN `aset` ON `kelola_aset`.`kode_aset` = `aset`.`kode_aset`
+LEFT JOIN `kategori` ON `kelola_aset`.`id_kategori` = `kategori`.`id_kategori`
+LEFT JOIN `ruangan` ON `kelola_aset`.`id_ruangan` = `ruangan`.`id_ruangan`
+LEFT JOIN `merek` ON `kelola_aset`.`id_merek` = `merek`.`id_merek`
+LEFT JOIN `kondisi` ON `kelola_aset`.`id_kondisi` = `kondisi`.`id_kondisi`
+WHERE `kelola_aset`.`id_kelola` = \'5\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kelola_aset`.*, `aset`.`nama_aset`, `aset`.`harga`, `kategori`.`nama_kategori`, `ruangan`.`nama_ruangan`, `merek`.`nama_merek`, `kondisi`.`nama_kondisi`
+FROM `kelola_aset`
+LEFT JOIN `aset` ON `kelola_aset`.`kode_aset` = `aset`.`kode_aset`
+LEFT JOIN `kategori` ON `kelola_aset`.`id_kategori` = `kategori`.`id_kategori`
+LEFT JOIN `ruangan` ON `kelola_aset`.`id_ruangan` = `ruangan`.`id_ruangan`
+LEFT JOIN `merek` ON `kelola_aset`.`id_merek` = `merek`.`id_merek`
+LEFT JOIN `kondisi` ON `kelola_aset`.`id_kondisi` = `kondisi`.`id_kondisi`
+WHERE `kelola_aset`.`id_kelola` = \'5\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `kelola_aset`.*, `aset`.`nama_aset`, `aset`.`harga`, `kategori`.`nama_kategori`, `ruangan`.`nama_ruangan`, `merek`.`nama_merek`, `kondisi`.`nama_kondisi`
+FROM `kelola_aset`
+LEFT JOIN `aset` ON `kelola_aset`.`kode_aset` = `aset`.`kode_aset`
+LEFT JOIN `kategori` ON `kelola_aset`.`id_kategori` = `kategori`.`id_kategori`
+LEFT JOIN `ruangan` ON `kelola_aset`.`id_ruangan` = `ruangan`.`id_ruangan`
+LEFT JOIN `merek` ON `kelola_aset`.`id_merek` = `merek`.`id_merek`
+LEFT JOIN `kondisi` ON `kelola_aset`.`id_kondisi` = `kondisi`.`id_kondisi`
+WHERE `kelola_aset`.`id_kelola` = :kelola_aset.id_kelola:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Models/PengolahanAsetModel.php(32): CodeIgniter\BaseModel->first()
+ 8 APPPATH/Controllers/PengolahanAsetController.php(75): App\Models\PengolahanAsetModel->getAsetWithDetails('5')
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->detail('5')
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 17:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 17:43:21 --> ErrorException: Undefined variable $aset
+in APPPATH/Views/pdf_template.php on line 12.
+ 1 APPPATH/Views/pdf_template.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aset', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/pdf_template.php', 12)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/pdf_template.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('pdf_template', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(97): view('pdf_template')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->generatePdf()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 17:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 17:44:28 --> ErrorException: Undefined variable $id
+in APPPATH/Controllers/PengolahanAsetController.php on line 94.
+ 1 APPPATH/Controllers/PengolahanAsetController.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengolahanAsetController.php', 94)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 17:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 17:44:30 --> ErrorException: Undefined variable $id
+in APPPATH/Controllers/PengolahanAsetController.php on line 94.
+ 1 APPPATH/Controllers/PengolahanAsetController.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengolahanAsetController.php', 94)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 17:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 17:44:46 --> ArgumentCountError: Too few arguments to function App\Controllers\PengolahanAsetController::generatePdf(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH/Controllers/PengolahanAsetController.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 17:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 17:45:58 --> ArgumentCountError: Too few arguments to function App\Controllers\PengolahanAsetController::generatePdf(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/vendor/codeigniter4/framework/system/CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH/Controllers/PengolahanAsetController.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 17:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 17:48:53 --> ErrorException: Undefined array key "nama_aset"
+in APPPATH/Views/pdf_template.php on line 12.
+ 1 APPPATH/Views/pdf_template.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_aset"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/pdf_template.php', 12)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/pdf_template.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('pdf_template', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(105): view('pdf_template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->generatePdf()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 17:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 17:54:30 --> ErrorException: Undefined variable $aset
+in APPPATH/Views/tambah_pengolahan_aset.php on line 26.
+ 1 APPPATH/Views/tambah_pengolahan_aset.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aset', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/tambah_pengolahan_aset.php', 26)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/tambah_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tambah_pengolahan_aset', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(35): view('tambah_pengolahan_aset', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 17:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 17:55:58 --> ErrorException: Undefined array key "nama_aset"
+in APPPATH/Views/tambah_pengolahan_aset.php on line 27.
+ 1 APPPATH/Views/tambah_pengolahan_aset.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_aset"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/tambah_pengolahan_aset.php', 27)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/tambah_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tambah_pengolahan_aset', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(37): view('tambah_pengolahan_aset', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 17:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 17:56:51 --> Error: Class "App\Controllers\AsetModel" not found
+in APPPATH/Controllers/PengolahanAsetController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->tambah()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 17:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 17:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:04:25 --> ErrorException: Undefined variable $id_kelola
+in APPPATH/Controllers/PengolahanAsetController.php on line 124.
+ 1 APPPATH/Controllers/PengolahanAsetController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_kelola', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengolahanAsetController.php', 124)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->edit('5')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:04:46 --> ErrorException: Undefined variable $aset
+in APPPATH/Views/edit_pengolahan_aset.php on line 17.
+ 1 APPPATH/Views/edit_pengolahan_aset.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aset', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php', 17)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengolahan_aset.php', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(127): view('edit_pengolahan_aset.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->edit('5')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:05:11 --> ErrorException: Undefined array key "nama_aset"
+in APPPATH/Views/edit_pengolahan_aset.php on line 17.
+ 1 APPPATH/Views/edit_pengolahan_aset.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_aset"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php', 17)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengolahan_aset.php', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(127): view('edit_pengolahan_aset.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->edit('5')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:07:02 --> ErrorException: Undefined array key "nama_aset"
+in APPPATH/Views/edit_pengolahan_aset.php on line 17.
+ 1 APPPATH/Views/edit_pengolahan_aset.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_aset"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php', 17)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengolahan_aset.php', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(136): view('edit_pengolahan_aset.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->edit('5')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:07:04 --> ErrorException: Undefined array key "nama_aset"
+in APPPATH/Views/edit_pengolahan_aset.php on line 17.
+ 1 APPPATH/Views/edit_pengolahan_aset.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_aset"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php', 17)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengolahan_aset.php', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(136): view('edit_pengolahan_aset.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->edit('5')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:08:07 --> ErrorException: Undefined array key "nama_aset"
+in APPPATH/Views/edit_pengolahan_aset.php on line 17.
+ 1 APPPATH/Views/edit_pengolahan_aset.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_aset"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php', 17)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengolahan_aset.php', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(139): view('edit_pengolahan_aset.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->edit('5')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:08:08 --> ErrorException: Undefined array key "nama_aset"
+in APPPATH/Views/edit_pengolahan_aset.php on line 17.
+ 1 APPPATH/Views/edit_pengolahan_aset.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_aset"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php', 17)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengolahan_aset.php', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(139): view('edit_pengolahan_aset.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->edit('5')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:11:33 --> ErrorException: Undefined array key "foto"
+in APPPATH/Views/edit_pengolahan_aset.php on line 35.
+ 1 APPPATH/Views/edit_pengolahan_aset.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php', 35)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/edit_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_pengolahan_aset.php', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(139): view('edit_pengolahan_aset.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->edit('5')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:19:27 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1778.
+ 1 SYSTEMPATH/BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/PengolahanAsetController.php(165): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->update()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:20:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 388.
+ 1 SYSTEMPATH/BaseModel.php(987): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/PengolahanAsetController.php(167): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->update()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:21:33 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1778.
+ 1 SYSTEMPATH/BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/PengolahanAsetController.php(170): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->update()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:23:26 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1778.
+ 1 SYSTEMPATH/BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/PengolahanAsetController.php(169): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->update()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:25:14 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1778.
+ 1 SYSTEMPATH/BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/PengolahanAsetController.php(173): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->update()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:25:41 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1778.
+ 1 SYSTEMPATH/BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/PengolahanAsetController.php(173): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->update()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:37:47 --> ErrorException: Undefined variable $kelola_aset
+in APPPATH/Views/detail_pengolahan_aset.php on line 65.
+ 1 APPPATH/Views/detail_pengolahan_aset.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelola_aset', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/detail_pengolahan_aset.php', 65)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/detail_pengolahan_aset.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('detail_pengolahan_aset', [], true)
+ 5 APPPATH/Controllers/PengolahanAsetController.php(88): view('detail_pengolahan_aset', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengolahanAsetController->detail('5')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengolahanAsetController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 18:52:22 --> ErrorException: Undefined array key "id_kelola"
+in APPPATH/Views/aset_nonaktif.php on line 46.
+ 1 APPPATH/Views/aset_nonaktif.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kelola"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/aset_nonaktif.php', 46)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/aset_nonaktif.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('aset_nonaktif.php', [], true)
+ 5 APPPATH/Controllers/AsetNonAktifController.php(12): view('aset_nonaktif.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AsetNonAktifController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsetNonAktifController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 18:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 18:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 19:00:16 --> ErrorException: Undefined array key "nama_kategori"
+in APPPATH/Views/detail_aset_nonaktif.php on line 24.
+ 1 APPPATH/Views/detail_aset_nonaktif.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/detail_aset_nonaktif.php', 24)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/detail_aset_nonaktif.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('detail_aset_nonaktif', [], true)
+ 5 APPPATH/Controllers/AsetNonAktifController.php(28): view('detail_aset_nonaktif', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AsetNonAktifController->detail('2')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsetNonAktifController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 19:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 19:01:28 --> BadMethodCallException: Call to undefined method App\Models\AsetNonaktifModel::getAsetNonAktifWithDetails
+in SYSTEMPATH/Model.php on line 874.
+ 1 APPPATH/Controllers/AsetNonAktifController.php(20): CodeIgniter\Model->__call('getAsetNonAktifWithDetails', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AsetNonAktifController->detail('2')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsetNonAktifController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 19:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 19:01:41 --> ErrorException: Undefined variable $tanggal_nonaktif
+in APPPATH/Views/detail_aset_nonaktif.php on line 61.
+ 1 APPPATH/Views/detail_aset_nonaktif.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal_nonaktif', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/detail_aset_nonaktif.php', 61)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Views/detail_aset_nonaktif.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('detail_aset_nonaktif', [], true)
+ 5 APPPATH/Controllers/AsetNonAktifController.php(28): view('detail_aset_nonaktif', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\AsetNonAktifController->detail('2')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsetNonAktifController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 19:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 23:57:00 --> ErrorException: Undefined variable $data
+in APPPATH/Controllers/PengadaanController.php on line 21.
+ 1 APPPATH/Controllers/PengadaanController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/app/Controllers/PengadaanController.php', 21)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengadaanController->tambah()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengadaanController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bpr_central_kepri/public/index.php')
+INFO - 2024-01-16 23:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 23:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
